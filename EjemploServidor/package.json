@@ -1,0 +1,15 @@
+{
+  "name": "ejemploservidor",
+  "version": "1.0.0",
+  "description": "Este es un ejemplo de servidor para juana",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

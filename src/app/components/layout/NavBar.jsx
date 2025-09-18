@@ -10,11 +10,8 @@ import Menu from './Menu';
 import Notifications from './Notifications';
 import CurrentUser from './CurrentUser';
 
-//VER
-//Lo hizo el profe
 export default function Navbar() {
-  // TO DO: Obtener el usuario del local storage una vez hecho el login
-  
+  //Es un usuario que uso como avatar, para que alguien vea como se ve la app si ya hubiera iniciado sesion
     const { currentUser, logout } = {currentUser: {
     id: '15',
     name: 'Grady Archie',
@@ -22,9 +19,12 @@ export default function Navbar() {
     email: 'Grady.Archie@ejemplo.com',
     status: 'completed'
   }, logout: () => {}};
+
+  //Estados locales del NavBar
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [notificationIndicator, setNotificationIndicator] = useState(true);
 
+  //Si no hay usuarios logueados, no muestra nada
   if (!currentUser) return null;
 
   return (

@@ -4,11 +4,15 @@ import React, { useState } from 'react';
 import { FaSignOutAlt, FaUserCog } from 'react-icons/fa';
 import './currentUser.css';
 
+//Recibo el usuario que esta logueado y una funcion para cerrar sesion
 const CurrentUser = ({ currentUser, logout }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
     <div className="current-user-container">
+      {/*Muestra un boton con la foto y el nombre del usuaruio
+      Si clickeo se abre un menu desplegable con mas opciones
+      "Mi perfil" - Mail del user - "Cerrar sesion"*/}
       <button
         type="button"
         className="user-menu-button"

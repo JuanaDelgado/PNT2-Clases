@@ -11,7 +11,7 @@ export default function SignupPage()
     const router = useRouter();
     const [error, setError] = useState('');
     const [isLoading, setIsLoading] = useState(false);
-    //Se guardan todos los datos del usuario
+    //Se guardan todos los datos del usuario una vez que se loguea
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -21,8 +21,10 @@ export default function SignupPage()
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        {/*Esta linea siempre tiene que estar, es la que hace que no recargue la pag */}
+        {/*Esta linea siempre tiene que estar, es la que hace que no recargue la pag 
+          Indica si esta esperando la respuesta del servidor para mostrar "Iniciando sesion"*/}
         setIsLoading(true);
+        //Muestra un msg si algo sale mal
         setError('');
 
         try {

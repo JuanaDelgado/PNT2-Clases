@@ -16,7 +16,6 @@ export default function UserDetailPage() {
                 const response = await fetch('https://raw.githubusercontent.com/ORT-PabloFernandez/PNTP2-REACT-EJEMPLO/main/src/data/usersv2.json');
                 const data = await response.json();
                 
-                //Buscar el usuario por ID
                 const foundUser = data.find((user) => user.id === userId);
 
                 if(foundUser){
@@ -30,9 +29,7 @@ export default function UserDetailPage() {
                 setLoading(false);
             }
         };
-        //Llamo a la funcion fetch
             fetchUsers();
-        //Lista de dependencias [] xq quiero que se ejecute 1 vez
     }, []);
 
     return (

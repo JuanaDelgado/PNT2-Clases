@@ -1,35 +1,72 @@
-[
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 },
-  { "id": 1, "nombre": "IPA", "marca": "Cerveza IPA", "alcohol": 6.5 },
-  { "id": 2, "nombre": "Stout", "marca": "Cerveza Stout", "alcohol": 5.0 },
-  { "id": 3, "nombre": "Lager", "marca": "Cerveza Lager", "alcohol": 4.5 }
-]
+  [
+    {
+      "id": "1",
+      "name": "Bulleit Bourbon 10 Year Old",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/07/Bulleit-Bourbon-10-Year-Old.png",
+      "pais": "Estados Unidos",
+      "status": "pocas_unidades"
+    },
+    {
+      "id": "2",
+      "name": "Aberlour 12 Years Double Cask",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/07/Aberlour-12-Years-Double-Cask.png",
+      "pais": "Escocia",
+      "status": "pocas_unidades"
+    },
+    {
+      "id": "3",
+      "name": "Nikka From The Barrel",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/07/Nikka-From-The-Barrel.png",
+      "pais": "Japón",
+      "status": "sin_stock"
+    },
+    {
+      "id": "4",
+      "name": "Jameson Black Barrel",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/07/Jameson-Black-Barrel.png",
+      "pais": "Irlanda",
+      "status": "varias_unidades"
+    },
+    {
+      "id": "5",
+      "name": "Old Parr 12 años",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/07/Old-Parr-12-anos.png",
+      "pais": "Escocia",
+      "status": "pocas_unidades"
+    },
+    {
+      "id": "6",
+      "name": "The Glenlivet Founder's Reserve",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/07/The-Glenlivet-Founders-Reserve.png",
+      "pais": "Escocia",
+      "status": "sin_stock"
+    },
+    {
+      "id": "7",
+      "name": "Jack Daniel's Tennessee Old No.7",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/03/Jack-Daniels-1.png",
+      "pais": "Estados Unidos",
+      "status": "pocas_unidades"
+    },
+    {
+      "id": "8",
+      "name": "Laphroaig",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/03/Laphroaig-10.png",
+      "pais": "Escocia",
+      "status": "varias_unidades"
+    },
+    {
+      "id": "9",
+      "name": "Macallan Sherry Oak 12 Years Old",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/03/The-Macallan-Sherry-Oak-12-Years-Old-Miniatura.png",
+      "pais": "Escocia",
+      "status": "varias_unidades"
+    },
+    {
+      "id": "10",
+      "name": "Johnnie Walker Blue Label",
+      "avatar": "https://luxuryshopwines.com/wp-content/uploads/2025/03/Johnnie-Walker-Blue-label.png",
+      "pais": "Escocia",
+      "status": "varias_unidades"
+    }
+  ]
